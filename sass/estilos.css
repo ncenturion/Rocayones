@@ -5,7 +5,7 @@ body {
 .header {
   height: 250px;
   width: 100%;
-  background-color:#00B7CE;
+  background-color: white;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -55,7 +55,7 @@ a {
 }
 
 footer {
-  color: black;
+  color: #f15b5b;
   background-color: #e4e3d9;
   text-align: center;
   font-family: 'Architects Daughter', cursive;
