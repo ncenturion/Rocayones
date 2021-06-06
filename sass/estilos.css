@@ -5,7 +5,7 @@ body {
 .header {
   height: 250px;
   width: 100%;
-  background-color: #00B7CE;
+  background-color: white;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -275,7 +275,9 @@ p {
   padding: 25px;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "item1 item2 item3 item4" "item5 item6 item7 item8" "item9 item10 item11 item12";
+      grid-template-areas: "item1 item2 item3 item4"
+ "item5 item6 item7 item8"
+ "item9 item10 item11 item12";
 }
 
 .gal .gal__grid .item {
