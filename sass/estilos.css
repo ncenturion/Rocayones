@@ -38,6 +38,7 @@ img {
           justify-content: space-evenly;
   -ms-flex-line-pack: space-evenly;
       align-content: space-evenly;
+  text-decoration: none;
 }
 
 ul {
@@ -80,7 +81,6 @@ p {
 
 .item {
   border: #00B7CE solid;
-  border-radius: 2px;
 }
 
 .item:hover {
@@ -101,7 +101,6 @@ p {
   border-radius: 10px;
   border: solid #00B7CE;
   text-shadow: 5px 5px 5px black;
-  text-decoration: none;
 }
 
 .btn2 {
@@ -217,11 +216,12 @@ p {
 
 .breadcrumb-item {
   margin-top: 20px;
+  text-decoration: none;
 }
 
 /*-----BEM---*/
 .roc {
-  background-color:white;
+  background-color: white;
   border: solid 2px black;
 }
 
@@ -253,8 +253,6 @@ p {
   margin-bottom: 25px;
 }
 
-
-
 .gal {
   margin-top: 5px;
   color: #f15b5b;
@@ -272,9 +270,7 @@ p {
   padding: 25px;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "item1 item2 item3 item4"
- "item5 item6 item7 item8"
- "item9 item10 item11 item12";
+      grid-template-areas: "item1 item2 item3 item4" "item5 item6 item7 item8" "item9 item10 item11 item12";
 }
 
 .gal .gal__grid .item {
