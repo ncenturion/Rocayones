@@ -263,9 +263,10 @@ p {
     background-color: white;
 
     .gal__grid {
-        width: auto;
+        width:auto;
         height: auto;
         background-color: white;
+        margin-left: 5%;
         padding: 25px;
         display: grid;
         grid-template-areas: "item1 item2 item3 item4"

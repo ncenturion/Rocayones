@@ -270,6 +270,7 @@ p {
   width: auto;
   height: auto;
   background-color: white;
+  margin-left: 5%;
   padding: 25px;
   display: -ms-grid;
   display: grid;
