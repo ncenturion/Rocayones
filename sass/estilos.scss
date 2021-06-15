@@ -92,7 +92,7 @@ p {
     border-radius: 10px;
     border: solid #00B7CE;
     text-shadow: 5px 5px 5px black;
-    
+
 }
 
 .btn2 {
@@ -220,7 +220,6 @@ p {
 /*-----BEM---*/
 .roc {
     background-color: white;
-    border: solid 2px black;
 
 }
 
@@ -247,6 +246,10 @@ p {
     margin-top: 25px;
     margin-left: 30%;
     margin-bottom: 25px;
+}
+
+.roc__roc2__p--color {
+    margin: 35px;
 }
 
 
