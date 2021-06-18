@@ -409,3 +409,40 @@ p {
 
 }
 /*portada*/
+
+.bodyp {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Multimedia/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+  
+}
+
+.btnp {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    padding: 2rem 2rem 2rem 2rem;
+   
+
+}
+.contenedorp {
+  
+    width: 100%;
+    height: 120px;
+    margin-top: 20%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color:rgba(0, 0, 0, 0.685);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+   
+}
