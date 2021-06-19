@@ -248,7 +248,9 @@ p {
   margin-left: 5%;
   padding: 25px;
   display: grid;
-  grid-template-areas: "item1 item2 item3 item4" "item5 item6 item7 item8" "item9 item10 item11 item12";
+  grid-template-areas: "item1 item2 item3 item4"
+ "item5 item6 item7 item8"
+ "item9 item10 item11 item12";
 }
 
 .gal .gal__grid .item {
