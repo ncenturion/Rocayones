@@ -12,6 +12,10 @@ body {
 
 }
 
+.headiz {
+    display: none;
+}
+
 img {
     height: 250px;
     width: auto;
@@ -163,34 +167,163 @@ p {
 }
 
 @media only screen and(min-width:360px) {
-    .fondo {
-        background-color: #00B7CE;
+    .roc {
+        display: grid;
+        place-items: center;
+    }
+
+    .roc__video {
+        border: 2px solid black;
+        align-self: center;
+        display: grid;
+    }
+
+    .footer {
+        background-color: #e4e3d9;
+        text-align: center;
+        font-family: 'Architects Daughter', cursive;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headright {
+        display: grid;
+        place-items: center;
+    }
+
+    .header {
+        height: 250px;
+        width: 100%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    img {
+        height: 250px;
+        width: 100%;
+    }
+
+    .gal__grid .item {
+        height: 150px;
+        width: 150px;
+        background-color: white;
+        border: #00B7CE solid;
+        border-radius: 5px;
+        margin-bottom: 10px;
     }
 }
 
 @media only screen and (min-width:480px) {
-    .fondo {
-        background-color: #f15b5b;
+    .headright {
+        display: grid;
+        place-items: center;
+    }
+
+    .headiz {
+        display: grid;
+    }
+
+    .header {
+        height: 250px;
+        width: 100%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .fondo {
-        background-color: #F5CF00;
+    .roc__video {
+        border: 2px solid black;
+        align-self: center;
+        margin-top: 5px;
+        margin-left: 15%;
+        margin-bottom: 25px;
     }
 
+    .headright {
+        display: grid;
+        place-items: center;
+    }
 
+    .headiz {
+        display: grid;
+    }
 
+    .header {
+        height: 250px;
+        width: 100%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    .headiz {
+        display: grid;
+
+    }
 }
 
 @media only screen and (min-width: 1024px) {
-    .fondo {
-        background-color: white;
+    .roc {
+        display: grid;
+        place-items: center;
+    }
 
+    .roc__video {
+        border: 2px solid black;
+        align-self: center;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 25px;
+    }
+
+    .conocenos__video {
+
+        align-self: center;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 25px;
+    }
+
+    .conocenos {
+        text-align: center;
+        color: #f15b5b;
+        font-family: 'Architects Daughter', cursive;
+        font-size: xx-large;
+        margin-top: 25px;
+        display: grid;
+        place-items: center;
+    }
+
+    .header {
+        height: 250px;
+        width: 100%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    .headiz {
+        display: grid;
+
+    }
+
+    img {
+        height: 250px;
+        width: auto;
     }
 
 }
 
+/*----------------------------------------*/
 .breadcrumb {
     margin-top: 2px;
     margin-left: 30%;
@@ -199,6 +332,7 @@ p {
 }
 
 .conteiner {
+    display: grid;
     margin-top: 20px;
     margin-left: 33.3%;
     margin-right: 33.3%;
@@ -221,6 +355,8 @@ p {
 /*-----BEM---*/
 .roc {
     background-color: white;
+    display: grid;
+    place-items: center;
 
 }
 
@@ -229,7 +365,7 @@ p {
     font-family: 'Architects Daughter', cursive;
     text-align: center;
     font-size: xx-large;
-    align-content: center;
+
 }
 
 .roc__roc2 {
@@ -244,17 +380,19 @@ p {
 .roc__video {
     border: 2px solid black;
     align-self: center;
-    margin-top: 25px;
-    margin-left: 30%;
-    margin-bottom: 25px;
+    display: grid;
+    place-items: center;
 }
 
 .roc__roc2__p--color {
     margin: 35px;
 }
 
+/*galeria*/
+
 
 .gal {
+    display: grid;
     margin-top: 5px;
     color: #f15b5b;
     font-family: 'Architects Daughter', cursive;
@@ -264,7 +402,7 @@ p {
     background-color: white;
 
     .gal__grid {
-        width:auto;
+        width: auto;
         height: auto;
         background-color: white;
         margin-left: 5%;
@@ -365,6 +503,8 @@ p {
 .gal__gal1 {
     color: #00B7CE;
     text-align: center;
+    display: grid;
+    place-items: center;
 }
 
 .inicio {
@@ -393,21 +533,22 @@ p {
     font-family: 'Architects Daughter', cursive;
     font-size: xx-large;
     margin-top: 25px;
+    display: grid;
+    place-items: center;
 }
 
 .conocenos__contenido {
     text-align: start;
-    margin: 25px;
+    margin: 30px;
 }
 
 .conocenos__video {
 
     align-self: center;
-    margin-top: 25px;
-    margin-left: 30%;
-    margin-bottom: 25px;
-
+    display: grid;
+    place-items: center;
 }
+
 /*portada*/
 
 .bodyp {
@@ -417,8 +558,8 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative; 
-  
+    position: relative;
+
 }
 
 .btnp {
@@ -429,20 +570,21 @@ p {
     justify-content: center;
     font-size: x-large;
     padding: 2rem 2rem 2rem 2rem;
-   
+
 
 }
+
 .contenedorp {
-  
+
     width: 100%;
     height: 120px;
     margin-top: 20%;
     padding-bottom: 5px;
     padding-top: 5px;
-    background-color:rgba(0, 0, 0, 0.685);
+    background-color: rgba(0, 0, 0, 0.685);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-content: space-evenly;
-   
+
 }
